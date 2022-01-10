@@ -407,7 +407,7 @@ WHERE {
                 }
             }
         }
-        BIND("(MobiDB n PED)\\DisProt" AS ?d)
+        BIND("(MobiDB n PED) \\ DisProt" AS ?d)
     }
     UNION
     {
