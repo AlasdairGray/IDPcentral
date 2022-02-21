@@ -1,0 +1,11 @@
+title: IDPcentral API
+description: 'API for acceessing IDPcentral data using the Intrinsically Disordered Protein Knowledge Graph(IDP-KG).
+
+  To run the queries, set the endpoint to https://swel.macs.hw.ac.uk/data/repositories/idpkg'
+contact:
+  name: Alasdair Gray
+  url: https://alasdairgray.github.io/
+licence: https://creativecommons.org/licenses/by/4.0/
+sparql_endpoint: https://swel.macs.hw.ac.uk/data/repositories/bioschemas
+queries:
+- https://raw.githubusercontent.com/AlasdairGray/IDPCentral/main/queries/proteins/protein-search.rq
