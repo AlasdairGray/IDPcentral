@@ -16,3 +16,10 @@ The notebook for exploring the generated knowledge graph can be run on the cloud
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AlasdairGray/IDP-KG/HEAD?labpath=notebooks%2FAnalysisQueries.ipynb)
 
 [^1]: See this [tutorial](https://github.com/alan-turing-institute/the-turing-way/blob/main/workshops/boost-research-reproducibility-binder/workshop-presentations/zero-to-binder-python.md) for an overview of what [MyBinder](https://mybinder.org/) is and offers.
+
+## REST API
+
+A Linked Data [REST API](https://grlc.io/api-url?specUrl=https://raw.githubusercontent.com/AlasdairGray/IDP-KG/main/idpcentral-api.yml#/) is provided using the [grlc](https://grlc.io) services. 
+
+- Swagger docs: https://grlc.io/api-url?specUrl=https://raw.githubusercontent.com/AlasdairGray/IDP-KG/main/idpcentral-api.yml#/
+- Configuration file: [idpcentral-api.yml](idpcentral-api.yml)
