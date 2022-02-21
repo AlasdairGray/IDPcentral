@@ -1,7 +1,5 @@
 #+ summary: Minimal protein information query
-#+ description: Defensive query: assumes that data does not conform to Protein profile
-#+ Retrieve a minimal set of properties that are mentioned in the Protein Profile
-#+ Proteins are grouped by their IRI, with multiple values possible
+#+ description: Retrieve a minimal set of properties that are mentioned in the Protein Profile. Proteins are grouped by their IRI, with multiple values possible. Defensive query: assumes that data does not conform to Protein profile
 #+ endpoint: https://swel.macs.hw.ac.uk/data/repositories/idpkg
 #+ pagination: 100
 #+ tags:
