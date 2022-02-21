@@ -1,0 +1,32 @@
+#+ summary: Basic information about all proteins in IDP-KG
+#+ description: Retrieve a minimal set of properties about each protein. Proteins are grouped by their IRI, with multiple values possible. Defensive query: assumes that data does not conform to Protein profile
+#+ endpoint: https://swel.macs.hw.ac.uk/data/repositories/idpkg
+#+ pagination: 100
+#+ tags:
+#+   - Protein
+
+PREFIX idpo: <https://idpcentral.org/idpo/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX pav: <http://purl.org/pav/>
+PREFIX schema: <https://schema.org/>
+PREFIX void: <http://rdfs.org/ns/void#>
+
+SELECT ?protein_iri
+  (GROUP_CONCAT(DISTINCT ?name;SEPARATOR=',') AS ?names)
+  (GROUP_CONCAT(DISTINCT ?sameAS_iri;SEPARATOR=',') AS ?equivalences)
+  (COUNT (?sequenceID) AS ?numberSequenceAnnotations)
+  (GROUP_CONCAT(DISTINCT ?source;SEPARATOR=',') AS ?sources)
+  (MAX (?date_retrieved) AS ?lastUpdate)
+WHERE {
+    GRAPH ?g {
+        ?protein_iri a schema:Protein .
+        OPTIONAL { ?protein_iri schema:name ?name }
+        OPTIONAL {?protein_iri schema:identifier | schema:sameAs ?sameAS_iri}
+        OPTIONAL {
+            ?protein_iri schema:hasSequenceAnnotation ?sequenceID .
+        }
+    }
+    ?g void:inDataset ?source ;
+       pav:retrievedOn ?date_retrieved .
+}
+GROUP BY ?protein_iri
