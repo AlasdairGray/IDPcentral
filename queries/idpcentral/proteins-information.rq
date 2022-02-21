@@ -1,5 +1,5 @@
 #+ summary: Basic information about all proteins in IDP-KG
-#+ description: Retrieve a minimal set of properties about each protein. Proteins are grouped by their IRI, with multiple values possible. Defensive query: assumes that data does not conform to Protein profile
+#+ description: Retrieve a minimal set of properties about each protein. Proteins are grouped by their IRI, with multiple values possible. Defensive query assumes that data does not conform to Protein profile
 #+ endpoint: https://swel.macs.hw.ac.uk/data/repositories/idpkg
 #+ pagination: 100
 #+ tags:
