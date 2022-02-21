@@ -10,3 +10,4 @@ sparql_endpoint: https://swel.macs.hw.ac.uk/data/repositories/bioschemas
 queries:
 - https://raw.githubusercontent.com/AlasdairGray/IDP-KG/main/queries/proteins/protein-search.rq
 - https://raw.githubusercontent.com/AlasdairGray/IDP-KG/main/queries/proteins/protein-count.rq
+- https://raw.githubusercontent.com/AlasdairGray/IDP-KG/main/queries/proteins/protein-information-minimal.rq

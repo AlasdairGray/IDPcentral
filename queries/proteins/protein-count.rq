@@ -1,4 +1,3 @@
-# Retrieve the number of distinct proteins
 #+ summary: Number of proteins
 #+ description: Retrieve the number of distinct items typed as a schema:Protein
 #+ endpoint: https://swel.macs.hw.ac.uk/data/repositories/idpkg

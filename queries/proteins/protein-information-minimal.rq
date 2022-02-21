@@ -1,22 +1,26 @@
-# Minimal protein information query
-# Defensive query: assumes that data does not conform to Protein profile
-# Retrieve a minimal set of properties that are mentioned in the Protein Profile
-# Proteins are grouped by their IRI, with multiple values possible
+#+ summary: Minimal protein information query
+#+ description: Defensive query: assumes that data does not conform to Protein profile
+#+ Retrieve a minimal set of properties that are mentioned in the Protein Profile
+#+ Proteins are grouped by their IRI, with multiple values possible
+#+ endpoint: https://swel.macs.hw.ac.uk/data/repositories/idpkg
+#+ pagination: 100
+#+ tags:
+#+   - Protein
 
 PREFIX schema: <https://schema.org/>
 PREFIX pav: <http://purl.org/pav/>
 PREFIX void: <http://rdfs.org/ns/void#>
 
 SELECT  ?s
-  (GROUP_CONCAT(DISTINCT ?name;SEPARATOR=',<br/>') AS ?names)
-  (GROUP_CONCAT(DISTINCT COALESCE(?description, '');SEPARATOR=',<br/>') AS ?descriptions)
-  (GROUP_CONCAT(DISTINCT ?identifier;SEPARATOR=',<br/>') AS ?identifiers)
-  (GROUP_CONCAT(DISTINCT COALESCE(?associatedDisease, '');SEPARATOR=',<br/>') AS ?diseases)
-  (GROUP_CONCAT(DISTINCT COALESCE(?encodedBy,'');SEPARATOR=',<br/>') AS ?genes)
-  (GROUP_CONCAT(DISTINCT COALESCE(?taxonomicRange,'');SEPARATOR=',<br/>') AS ?taxons)
-  (GROUP_CONCAT(DISTINCT ?sameAs;SEPARATOR=',<br/>') AS ?sames)
-  (GROUP_CONCAT(DISTINCT ?source;SEPARATOR=',<br/>') AS ?sources)
-  (GROUP_CONCAT(DISTINCT ?dataset;SEPARATOR=',<br/>') AS ?datasets)
+  (GROUP_CONCAT(DISTINCT ?name;SEPARATOR=',') AS ?names)
+  (GROUP_CONCAT(DISTINCT COALESCE(?description, '');SEPARATOR=',') AS ?descriptions)
+  (GROUP_CONCAT(DISTINCT ?identifier;SEPARATOR=',') AS ?identifiers)
+  (GROUP_CONCAT(DISTINCT COALESCE(?associatedDisease, '');SEPARATOR=',') AS ?diseases)
+  (GROUP_CONCAT(DISTINCT COALESCE(?encodedBy,'');SEPARATOR=',') AS ?genes)
+  (GROUP_CONCAT(DISTINCT COALESCE(?taxonomicRange,'');SEPARATOR=',') AS ?taxons)
+  (GROUP_CONCAT(DISTINCT ?sameAs;SEPARATOR=',') AS ?sames)
+  (GROUP_CONCAT(DISTINCT ?source;SEPARATOR=',') AS ?sources)
+  (GROUP_CONCAT(DISTINCT ?dataset;SEPARATOR=',') AS ?datasets)
 WHERE {
     GRAPH ?g {
 # Bioschemas Minimal Properties
