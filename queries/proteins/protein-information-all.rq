@@ -1,4 +1,4 @@
-# Query to retrieve protein data
+# Query to retrieve protein data for all proteins
 # Defensive query: assumes that data does not conform to Protein profile
 # Retrieve all properties that are mentioned in the Protein Profile
 # Proteins are grouped by their IRI, with multiple values possible
