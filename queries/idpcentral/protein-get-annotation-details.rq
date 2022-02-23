@@ -1,0 +1,29 @@
+#+ summary: Retrieve protein annotation details for a given protein
+#+ description: Retrieve all details of all annotations for the protein identified by the supplied IRI
+#+ endpoint: https://swel.macs.hw.ac.uk/data/repositories/idpkg
+#+ default: https://idpcentral.org/id/P62799
+#+ tags:
+#+   - Protein
+
+PREFIX idpo: <https://idpcentral.org/idpo/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX pav: <http://purl.org/pav/>
+PREFIX schema: <https://schema.org/>
+PREFIX void: <http://rdfs.org/ns/void#>
+
+#TODO: Example protein should have 12 annotations, only 2 coming through
+SELECT ?sequenceID ?sequenceLocation ?start ?end ?annotationName ?source ?dateRetrieved
+WHERE {
+    BIND (?_protein_iri AS ?protein)
+    GRAPH ?g {
+        ?protein a schema:Protein ;
+            schema:hasSequenceAnnotation ?sequenceID .
+        ?sequenceID schema:sequenceLocation ?sequenceLocation ;
+              schema:additionalProperty/schema:value ?annotation .
+        ?sequenceLocation schema:rangeStart ?start ;
+            schema:rangeEnd ?end.
+        ?annotation schema:name ?annotationName
+    }
+    ?g void:inDataset ?source ;
+       pav:retrievedOn ?dateRetrieved .
+}
