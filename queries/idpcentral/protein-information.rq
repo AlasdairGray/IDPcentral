@@ -1,7 +1,8 @@
 #+ summary: All data about the protein with the given IRI in IDP-KG
 #+ description: Retrieve all properties about a specific protein. Proteins are grouped by their IRI, with multiple values possible.
 #+ endpoint: https://swel.macs.hw.ac.uk/data/repositories/idpkg
-#+ default: https://idpcentral.org/id/P62799
+#+ default:
+#+   - protein: https://idpcentral.org/id/P62799
 #+ tags:
 #+   - Protein
 
