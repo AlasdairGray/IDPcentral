@@ -11,3 +11,4 @@ queries:
   - https://raw.githubusercontent.com/AlasdairGray/IDP-KG/main/queries/proteins/protein-search.rq
   - https://raw.githubusercontent.com/AlasdairGray/IDP-KG/main/queries/proteins/protein-count.rq
   - https://raw.githubusercontent.com/AlasdairGray/IDP-KG/main/queries/idpcentral/proteins-summary.rq
+  - https://raw.githubusercontent.com/AlasdairGray/IDP-KG/main/queries/idpcentral/protein-information.rq

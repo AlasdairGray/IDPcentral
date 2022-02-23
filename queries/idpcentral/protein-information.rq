@@ -1,0 +1,40 @@
+#+ summary: All data about the protein with the given IRI in IDP-KG
+#+ description: Retrieve all properties about a specific protein. Proteins are grouped by their IRI, with multiple values possible.
+#+ endpoint: https://swel.macs.hw.ac.uk/data/repositories/idpkg
+#+ default: https://idpcentral.org/id/P62799
+#+ tags:
+#+   - Protein
+
+PREFIX idpo: <https://idpcentral.org/idpo/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX pav: <http://purl.org/pav/>
+PREFIX schema: <https://schema.org/>
+PREFIX void: <http://rdfs.org/ns/void#>
+
+SELECT ?protein
+  (GROUP_CONCAT(DISTINCT ?name;SEPARATOR=',') AS ?names)
+  (GROUP_CONCAT(DISTINCT ?sameAS_iri;SEPARATOR=',') AS ?equivalences)
+  (GROUP_CONCAT(DISTINCT ?sequence;SEPARATOR=',') AS ?sequences)
+  (COUNT (?sequenceID) AS ?numberSequenceAnnotations)
+  (GROUP_CONCAT(DISTINCT ?taxon;SEPARATOR=',') AS ?taxons)
+  (GROUP_CONCAT(DISTINCT ?source;SEPARATOR=',') AS ?sources)
+  (MAX (?date_retrieved) AS ?lastUpdate)
+WHERE {
+    BIND (?_protein_iri AS ?protein)
+    GRAPH ?g {
+        ?protein a schema:Protein .
+        OPTIONAL { ?protein schema:name ?name }
+        OPTIONAL { ?protein schema:identifier | schema:sameAs ?sameAS_iri }
+        OPTIONAL { ?protein schema:hasBioPolymerSequence ?sequence }
+        OPTIONAL {
+            ?protein schema:hasSequenceAnnotation ?sequenceID .
+        }
+        OPTIONAL {
+          ?protein schema:taxonomicRange/schema:termCode ?code
+          BIND (CONCAT('http://purl.bioontology.org/ontology/NCBITAXON/',?code) AS ?taxon)
+        }
+    }
+    ?g void:inDataset ?source ;
+       pav:retrievedOn ?date_retrieved .
+}
+GROUP BY ?protein
