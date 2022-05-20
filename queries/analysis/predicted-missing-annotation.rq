@@ -8,16 +8,20 @@ PREFIX pav: <http://purl.org/pav/>
 PREFIX schema: <https://schema.org/>
 PREFIX void: <http://rdfs.org/ns/void#>
 
-SELECT DISTINCT ?p1
+SELECT DISTINCT ?p1 ?name ?identifier
 WHERE {
     {
         GRAPH ?mobidb {
-            ?p1 a schema:Protein
+            ?p1 a schema:Protein .
+            OPTIONAL {?p1 schema:identifier ?identifier }
+            OPTIONAL {?p1 schema:name ?name }
         }
         ?mobidb void:inDataset "https://mobidb.org/#2020-09" .
     } UNION {
         GRAPH ?ped {
-            ?p1 a schema:Protein
+            ?p1 a schema:Protein .
+            OPTIONAL {?p1 schema:identifier ?identifier }
+            OPTIONAL {?p1 schema:name ?name }
         }
         ?ped void:inDataset "https://proteinensemble.org/#2021-02-12" .
     } MINUS {
