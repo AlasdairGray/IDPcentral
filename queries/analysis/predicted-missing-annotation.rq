@@ -1,0 +1,23 @@
+#+ summary: Proteins with predicted disorder but no manual annotation
+#+ description: Which proteins have predicted disordered regions in MobiDB, but are not yet annotated manually in DisProt. The same for PED.
+#+ endpoint: https://swel.macs.hw.ac.uk/data/repositories/idpkg
+#+ tags:
+#+   - Analysis
+
+PREFIX pav: <http://purl.org/pav/>
+PREFIX schema: <https://schema.org/>
+PREFIX void: <http://rdfs.org/ns/void#>
+
+SELECT ?p1
+WHERE {
+    GRAPH ?mobidb {
+        ?p1 a schema:Protein
+    }
+    ?mobidb void:inDataset "https://mobidb.org/#2020-09" .
+    MINUS {
+        GRAPH ?disprot {
+            ?p1 a schema:Protein
+        }
+        ?disprot void:inDataset "https://disprot.org/#2021-08" .
+    }
+}
