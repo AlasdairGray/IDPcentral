@@ -6,3 +6,4 @@ docs/.ipynb_checkpoints/
 docs/Gemfile.lock
 BS-IDPCentral.code-workspace
 .ipynb_checkpoints/
+*/.DS_Store
