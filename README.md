@@ -29,11 +29,25 @@ __Citing IDP-KG:__ If you used IDP-KG in your work, please cite the [SWAT4HCLS p
 ### Notes
 
 - The term 'source' is used to distinguish the page that was scraped
-- The term 'dataset' is used to identify the collection of data that a particular record page (e.g. disprot:DP000003) belongs to
+- The term 'dataset' is used to identify the collection of data that a particular record page (e.g. [disprot:DP000003](https://disprot.org/DP00003)) belongs to
 
+## Notebooks
 
+The repository contains two Jupyter notebooks in the notebooks directory:
 
-## Analysis Notebook
+1. ETLProcess notebook converts the harvested data into a semantic knowledge graph represented in RDF using the Bioschemas terms;
+
+2. AnalysisQueries notebook runs some queries over the resulting knowledge graph. 
+
+Full instructions for running the notebooks are contained within the notebooks. In both notebooks, all cells should be run and then the GUI used to generate the desired outputs.
+
+To install the dependencies that the notebooks rely on run the following from the command line (or Jupyter shell terminal):
+
+```shell
+pip install -r requirements.txt
+```
+
+### Running the Analysis Notebook in the Cloud
 
 The notebook for exploring the generated knowledge graph can be run on the cloud using the mybinder service[^1]; click on logo below to get going.
 
