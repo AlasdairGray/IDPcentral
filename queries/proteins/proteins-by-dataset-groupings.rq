@@ -1,4 +1,9 @@
-# Query to analyse the number of proteins by dataset groups
+#+ summary: Proteins per dataset
+#+ description: Query to analyse the number of proteins by dataset groups
+#+ endpoint: https://swel.macs.hw.ac.uk/data/repositories/idpkg
+#+ method: POST
+#+ tags:
+#+   - Dataset Statistics
 
 PREFIX schema: <https://schema.org/>
 PREFIX pav: <http://purl.org/pav/>
