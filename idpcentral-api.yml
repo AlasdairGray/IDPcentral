@@ -13,4 +13,5 @@ queries:
   - https://raw.githubusercontent.com/AlasdairGray/IDP-KG/main/queries/idpcentral/proteins-summary.rq
   - https://raw.githubusercontent.com/AlasdairGray/IDP-KG/main/queries/idpcentral/protein-information.rq
   - https://raw.githubusercontent.com/AlasdairGray/IDP-KG/main/queries/idpcentral/protein-get-annotation-details.rq
+  - https://raw.githubusercontent.com/AlasdairGray/IDP-KG/main/queries/proteins/proteins-by-dataset-groupings.rq
   - https://raw.githubusercontent.com/AlasdairGray/HCLS-Stats-Queries/main/number-triples.rq
