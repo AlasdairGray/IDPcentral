@@ -14,7 +14,9 @@ layout: default
 </blockquote>
 {% if page.bioschemas.image %}
 <figure style="float: right; max-width: 300px;">
-  <img src="{{ page.bioschemas.image }}" alt="Venn diagram showing intersection of proteins in the {{ page.bioschemas.version }} dataset."/>
+  <a href="{{ page.bioschemas.image }}">
+    <img src="{{ page.bioschemas.image }}" alt="Venn diagram showing intersection of proteins in the {{ page.bioschemas.version }} dataset."/>
+  </a>
   <figcaption>Venn diagram showing intersection of proteins in the {{ page.bioschemas.version }} dataset.</figcaption>
 </figure>
 {% endif %}
