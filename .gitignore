@@ -1,7 +1,7 @@
 *.log
 scraped-data/*/
 docs/_site/
-notebooks/.ipynb_checkpoints/
+*/.ipynb_checkpoints/
 docs/.ipynb_checkpoints/
 docs/Gemfile.lock
 BS-IDPCentral.code-workspace
