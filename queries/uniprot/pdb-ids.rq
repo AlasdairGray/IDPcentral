@@ -1,0 +1,27 @@
+#+ summary: Retrieve PDB IDs
+#+ description: Retrieve PDB IDs using the UniProt query serivce. Exploits the sameAs link to UniProt ID and the data mapping in UniProt to PDB ID.
+#+ endpoint: https://swel.macs.hw.ac.uk/data/repositories/idpkg
+#+ tags:
+#+   - UniProt
+
+PREFIX schema: <https://schema.org/>
+PREFIX pav: <http://purl.org/pav/>
+PREFIX void: <http://rdfs.org/ns/void#>
+
+PREFIX up: <http://purl.uniprot.org/core/>
+
+SELECT DISTINCT ?s ?name ?db
+WHERE {
+  # Retrieve ID and name from Bioschemas data
+    GRAPH ?g {
+        ?s a schema:Protein ;
+             schema:name ?name ;
+             schema:sameAs ?sameAs 
+    }
+  # Retrieve PDB ID from UniProt
+  SERVICE <https://sparql.uniprot.org/sparql> {
+	?sameAs a up:Protein ;
+    	rdfs:seeAlso ?db .
+  	?db up:database <http://purl.uniprot.org/database/PDB>
+	}
+}
