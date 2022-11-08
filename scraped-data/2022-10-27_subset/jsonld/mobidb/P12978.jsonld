@@ -1,0 +1,76 @@
+{
+  "@context": "https://schema.org",
+  "includedInDataset": "https://mobidb.org/#2021-11",
+  "@type": "Protein",
+  "@id": "https://mobidb.org/P12978",
+  "http://purl.org/dc/terms/conformsTo": {
+    "@id": "https://bioschemas.org/profiles/Protein/0.11-RELEASE",
+    "@type": "CreativeWork"
+  },
+  "identifier": "https://identifiers.org/mobidb:P12978",
+  "sameAs": "http://purl.uniprot.org/uniprot/P12978",
+  "name": "Epstein-Barr nuclear antigen 2",
+  "hasBioPolymerSequence": "MPTFYLALHGGQTYHLIVDTDSLGNPSLSVIPSNPYQEQLSDTPLIPLTIFVGENTGVPPPLPPPPPPPPPPPPPPPPPPPPPPPPPPSPPPPPPPPPPPQRRDAWTQEPSPLDRDPLGYDVGHGPLASAMRMLWMANYIVRQSRGDRGLILPQGPQTAPQARLVQPHVPPLRPTAPTILSPLSQPRLTPPQPLMMPPRPTPPTPLPPATLTVPPRPTRPTTLPPTPLLTVLQRPTELQPTPSPPRMHLPVLHVPDQSMHPLTHQSTPNDPDSPEPRSPTVFYNIPPMPLPPSQLPPPAAPAQPPPGVINDQQLHHLPSGPPWWPPICDPPQPSKTQGQSRGQSRGRGRGRGRGRGKGKSRDKQRKPGGPWRPEPNTSSPSMPELSPVLGLHQGQGAGDSPTPGPSNAAPVCRNSHTATPNVSPIHEPESHNSPEAPILFPDDWYPPSIDPADLDESWDYIFETTESPSSDEDYVEGPSKRPRPSIQ",
+  "hasSequenceAnnotation": [
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://mobidb.org/P12978#prediction-disorder-mobidb_lite.52_121",
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://mobidb.org/P12978#sequence-location.52_121",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 52,
+        "rangeEnd": 121
+      },
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "Term",
+        "value": {
+          "@type": "DefinedTerm",
+          "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+            "name": "IDP ontology"
+          },
+          "termCode": "IDPO:00076",
+          "name": "Disorder"
+        }
+      },
+      "description": "Protein disordered region predicted by MobiDB-lite"
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://mobidb.org/P12978#prediction-disorder-mobidb_lite.258_487",
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://mobidb.org/P12978#sequence-location.258_487",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 258,
+        "rangeEnd": 487
+      },
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "Term",
+        "value": {
+          "@type": "DefinedTerm",
+          "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+            "name": "IDP ontology"
+          },
+          "termCode": "IDPO:00076",
+          "name": "Disorder"
+        }
+      },
+      "description": "Protein disordered region predicted by MobiDB-lite"
+    }
+  ]
+}

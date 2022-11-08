@@ -1,0 +1,135 @@
+{
+  "@context": "https://schema.org",
+  "includedInDataset": "https://disprot.org/#2022-03",
+  "@type": "Protein",
+  "@id": "https://disprot.org/DP03498",
+  "http://purl.org/dc/terms/conformsTo": {
+    "@id": "https://bioschemas.org/profiles/Protein/0.11-RELEASE",
+    "@type": "CreativeWork"
+  },
+  "identifier": "https://identifiers.org/disprot:DP03498",
+  "sameAs": "http://purl.uniprot.org/uniprot/P06491",
+  "name": "Major capsid protein",
+  "taxonomicRange": {
+    "@type": "DefinedTerm",
+    "termCode": "10299",
+    "url": "http://purl.bioontology.org/ontology/NCBITAXON/10299",
+    "sameAs": [
+      "http://purl.uniprot.org/taxonomy/10299",
+      "https://identifiers.org/taxonomy:10299",
+      "http://purl.obolibrary.org/obo/NCBITaxon_10299"
+    ],
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "NCBI taxon",
+      "url": "https://bioportal.bioontology.org/ontologies/NCBITAXON"
+    }
+  },
+  "hasBioPolymerSequence": "MAAPNRDPPGYRYAAAMVPTGSLLSTIEVASHRRLFDFFSRVRSDANSLYDVEFDALLGSYCNTLSLVRFLELGLSVACVCTKFPELAYMNEGRVQFEVHQPLIARDGPHPIEQPTHNYMTKIIDRRALNAAFSLATEAIALLTGEALDGTGIGAHRQLRAIQQLARNVQAVLGAFERGTADQMLHVLLEKAPPLALLLPMQRYLDNGRLATRVARATLVAELKRSFCETSFFLGKAGHRREAVEAWLVDLTTATQPSVAVPRLTHADTRGRPVDGVLVTTAPIKQRLLQSFLKVEDTEADVPVTYGEMVLNGANLVTALVMGKAVRSLDDVGRHLLEMQEEQLDLNRQTLDELESAPQTTRVRADLVSIGEKLVFLEALEKRIYAATNVPYPLVGAMDLTFVLPLGLFNPVMERFAAHAGDLVPAPGHPDPRAFPPRQLFFWGKDRQVLRLSLEHAIGTVCHPSLMNVDAAVGGLNRDPVEAANPYGAYVAAPAGPAADMQQLFLNAWGQRLAHGRVRWVAEGQMTPEQFMQPDNANLALELHPAFDFFVGVADVELPGGDVPPAGPGEIQATWRVVNGNLPLALCPAAFRDARGLELGVGRHAMAPATIAAVRGAFDDRNYPAVFYLLQAAIHGSEHVFCALARLVVQCITSYWNNTRCAAFVNDYSLVSYVVTYLGGDLPEECMAVYRDLVAHVEALAQLVDDFTLTGPELGGQAQAELNHLMRDPALLPPLVWDCDALMRRAALDRHRDCRVSAGGHDPVYAAACNVATADFNRNDGQLLHNTQARAADAADDRPHRGADWTVHHKIYYYVMVPAFSRGRCCTAGVRFDRVYATLQNMVVPEIAPGEECPSDPVTDPAHPLHPANLVANTVNAMFHNGRVVVDGPAMLTLQVLAHNMAERTTALLCSAAPDAGANTASTTNMRIFDGALHAGILLMAPQHLDHTIQNGDYFYPLPVHALFAGADHVANAPNFPPALRDLSRQVPLVPPALGANYFSSIRQPVVQHVRESAAGENALTYALMAGYFKISPVALHHQLKTGLHPGFGFTVVRQDRFVTENVLFSERASEAYFLGQLQVARHETGGGVNFTLTQPRANVDLGVGYTAVVATATVRNPVTDMGNLPQNFYLGRGAPPLLDNAAAVYLRNAVVAGNRLGPAQPVPVFGCAQVPRRAGMDHGQDAVCEFIATPVSTDVNYFRRPCNPRGRAAGGVYAGDKEGDVTALMYDHGQSDPSRAFAATANPWASQRFSYGDLLYNGAYHLNGASPVLSPCFKFFTSADIAAKHRCLERLIVETGSAVSTATAASDVQFKRPPGCRELVEDPCGLFQEAYPLTCASDPALLRSARNGEAHARETHFAQYLVYDASPLKGLAL",
+  "hasSequenceAnnotation": [
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP03498#disorder-content",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP03498#sequence-location.1_1374",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 1374
+      },
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "Protein disorder content",
+        "propertyID": {
+          "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499"
+        },
+        "value": 0.03566229985443959
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP03498r001",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP03498#sequence-location.451_483",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 451,
+        "rangeEnd": 483
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00076",
+            "name": "disorder"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:12574112"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP03498r002",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP03498#sequence-location.523_538",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 523,
+        "rangeEnd": 538
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00076",
+            "name": "disorder"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:12574112"
+      }
+    }
+  ]
+}
