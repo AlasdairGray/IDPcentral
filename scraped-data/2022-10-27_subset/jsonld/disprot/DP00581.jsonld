@@ -1,0 +1,252 @@
+{
+  "@context": "https://schema.org",
+  "includedInDataset": "https://disprot.org/#2022-03",
+  "@type": "Protein",
+  "@id": "https://disprot.org/DP00581",
+  "http://purl.org/dc/terms/conformsTo": {
+    "@id": "https://bioschemas.org/profiles/Protein/0.11-RELEASE",
+    "@type": "CreativeWork"
+  },
+  "identifier": "https://identifiers.org/disprot:DP00581",
+  "sameAs": "http://purl.uniprot.org/uniprot/P11233",
+  "name": "Ras-related protein Ral-A",
+  "taxonomicRange": {
+    "@type": "DefinedTerm",
+    "termCode": "9606",
+    "url": "http://purl.bioontology.org/ontology/NCBITAXON/9606",
+    "sameAs": [
+      "http://purl.uniprot.org/taxonomy/9606",
+      "https://identifiers.org/taxonomy:9606",
+      "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    ],
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "NCBI taxon",
+      "url": "https://bioportal.bioontology.org/ontologies/NCBITAXON"
+    }
+  },
+  "hasBioPolymerSequence": "MAANKPKGQNSLALHKVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYRKKVVLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSDLEDKRQVSVEEAKNRAEQWNVNYVETSAKTRANVDKVFFDLMREIRARKMEDSKEKNGKKKRKSLAKRIRERCCIL",
+  "hasSequenceAnnotation": [
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP00581#disorder-content",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP00581#sequence-location.1_206",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 206
+      },
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "Protein disorder content",
+        "propertyID": {
+          "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499"
+        },
+        "value": 0.05825242718446602
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP00581r001",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP00581#sequence-location.72_83",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 72,
+        "rangeEnd": 83
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00076",
+            "name": "disorder"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:15530367"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP00581r002",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP00581#sequence-location.72_83",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 72,
+        "rangeEnd": 83
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00502",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00502",
+            "name": "flexible linker/spacer"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:15530367"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP00581r003",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP00581#sequence-location.72_83",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 72,
+        "rangeEnd": 83
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00024",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00024",
+            "name": "molecular recognition display site"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:15530367"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP00581r004",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP00581#sequence-location.72_83",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 72,
+        "rangeEnd": 83
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00050",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00050",
+            "name": "disorder to order"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:15530367"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP00581r005",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP00581#sequence-location.72_83",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 72,
+        "rangeEnd": 83
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0005515",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "GO:0005515",
+            "name": "protein binding"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:15530367"
+      }
+    }
+  ]
+}

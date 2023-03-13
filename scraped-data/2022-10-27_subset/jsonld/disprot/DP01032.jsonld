@@ -1,0 +1,291 @@
+{
+  "@context": "https://schema.org",
+  "includedInDataset": "https://disprot.org/#2022-03",
+  "@type": "Protein",
+  "@id": "https://disprot.org/DP01032",
+  "http://purl.org/dc/terms/conformsTo": {
+    "@id": "https://bioschemas.org/profiles/Protein/0.11-RELEASE",
+    "@type": "CreativeWork"
+  },
+  "identifier": "https://identifiers.org/disprot:DP01032",
+  "sameAs": "http://purl.uniprot.org/uniprot/Q06556",
+  "name": "Fibronectin binding protein",
+  "taxonomicRange": {
+    "@type": "DefinedTerm",
+    "termCode": "1334",
+    "url": "http://purl.bioontology.org/ontology/NCBITAXON/1334",
+    "sameAs": [
+      "http://purl.uniprot.org/taxonomy/1334",
+      "https://identifiers.org/taxonomy:1334",
+      "http://purl.obolibrary.org/obo/NCBITaxon_1334"
+    ],
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "NCBI taxon",
+      "url": "https://bioportal.bioontology.org/ontologies/NCBITAXON"
+    }
+  },
+  "hasBioPolymerSequence": "MTNCKYKLRKLSIGLVSVGTMFMAAPVMGEDASQPTASVTTESPAIQTEEDQGSQAEALEEPTPAPQTSPSTVSAVPAEAAAMADEKGIAEAPAHEPAPKASVQAEAASPAGKAEATTNTGQPTNTEQARSRSKRAAEIAPQTIEVEKLEVDKENSSLTVKDGEKDKQLIKHRDGNQRDIFDISRDVKVNQDGTMDVTLTVKPKQIDEGAEVIVLLDTSQKMTETDFNTAKENIKKLVTTLTGTTDKEGKNVSHYNNRNSVRLIDFYRKVGESTDLSGWDAKKIDEKLNEVWKKAKDDYNGWGVDLQGAIHKAREIFNLDKEKRSGKRQHIVLFSQGESTFSYDIKDKSKMDKVAVEEPVTYSNPLFPWPFYFDTTTRTHNVVNDAKKLIDFLNKLGISQFNGAVDNVATVGNTLLGLGSFFGLKNPLDYISLADLETSKLNSEKFDYSRRVGEGYNFRSYFDREVDKVGFKKILVEKIKGNLKKFQPKQTDTWLSSLGLNSIKEKIQDWMIDKALDNLFYRRQYQFYNHNLSAQAEARMAREEGIKFYAVDVTEPERIAKEINSQKYSEAYTNHLKKKAEEARELAKKRNEKFDKYLKEMSESQKFFKDVEDPEKFKDILTELKVTETFEEKVSVNNSEQRKSNKEVEYKKASSNSSFLSFIFSSSTNESITWTLSKDKLQKALQSGETLTLEYKLKIHKDKFKLAPQTRSKRSLDTSENKKSVTEKVITSDVKYKINDKEVKGKELDDVSLTYSKETVRKPQVEPNVPDTPQEKPLTPLAPSEPSQPSIPETPLIPSEPSVPETSTPEGPTEGENNLGGQSEEITITEDSQSGMSGQNPGSGNETVVEDTQTSQEDIVLGGPGQVIDFTEDSQPGMSGNNSHTITEDSKPSQEDEVIIGGQGQVIDFTEDTQSGMSGDNSHTDGTVLEEDSKPSQEDEVIIGGQGQVIDFTEDTQTGMSGAGQVESPTITEETHKPEIIMGGQSDPIDMVEDTLPGMSGSNEATVVEEDTRPKLQFHFDNEEPVPATVPTVSQTPIAQVESKVPHAKAESALPQTGDTNKLETFFTITALTVIGAAGLLGKKRRNNQTD",
+  "hasSequenceAnnotation": [
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01032#disorder-content",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01032#sequence-location.1_1091",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 1091
+      },
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "Protein disorder content",
+        "propertyID": {
+          "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499"
+        },
+        "value": 0.1466544454628781
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01032r001",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01032#sequence-location.810_969",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 810,
+        "rangeEnd": 969
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00076",
+            "name": "disorder"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:8576127"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01032r002",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01032#sequence-location.810_969",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 810,
+        "rangeEnd": 969
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0060090",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "GO:0060090",
+            "name": "molecular adaptor activity"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:8576127"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01032r003",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01032#sequence-location.810_969",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 810,
+        "rangeEnd": 969
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00076",
+            "name": "disorder"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:8576127"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01032r004",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01032#sequence-location.810_969",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 810,
+        "rangeEnd": 969
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0060090",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "GO:0060090",
+            "name": "molecular adaptor activity"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:8576127"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01032r005",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01032#sequence-location.810_969",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 810,
+        "rangeEnd": 969
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00076",
+            "name": "disorder"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:8576127"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01032r006",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01032#sequence-location.810_969",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 810,
+        "rangeEnd": 969
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0060090",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "GO:0060090",
+            "name": "molecular adaptor activity"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:8576127"
+      }
+    }
+  ]
+}

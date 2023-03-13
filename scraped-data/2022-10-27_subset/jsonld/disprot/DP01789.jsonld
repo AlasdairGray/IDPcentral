@@ -1,0 +1,759 @@
+{
+  "@context": "https://schema.org",
+  "includedInDataset": "https://disprot.org/#2022-03",
+  "@type": "Protein",
+  "@id": "https://disprot.org/DP01789",
+  "http://purl.org/dc/terms/conformsTo": {
+    "@id": "https://bioschemas.org/profiles/Protein/0.11-RELEASE",
+    "@type": "CreativeWork"
+  },
+  "identifier": "https://identifiers.org/disprot:DP01789",
+  "sameAs": "http://purl.uniprot.org/uniprot/A0A1Z3GD08",
+  "name": "Abcissic acid stress ripening",
+  "taxonomicRange": {
+    "@type": "DefinedTerm",
+    "termCode": "4567",
+    "url": "http://purl.bioontology.org/ontology/NCBITAXON/4567",
+    "sameAs": [
+      "http://purl.uniprot.org/taxonomy/4567",
+      "https://identifiers.org/taxonomy:4567",
+      "http://purl.obolibrary.org/obo/NCBITaxon_4567"
+    ],
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "NCBI taxon",
+      "url": "https://bioportal.bioontology.org/ontologies/NCBITAXON"
+    }
+  },
+  "hasBioPolymerSequence": "MAEEKHHHLFHHKEGEDFQPAADGGVDTYGYSTETVVTATGNDGEYERITKEEKHHKHKEHLGEMGAAAAGAFALYEKHEAKKDPEHAHKHKIEEEVAAAAAVGAGGFVFHEHHEKKQDHKEAKEASGEKKHHLFG",
+  "hasSequenceAnnotation": [
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01789#disorder-content",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01789#sequence-location.1_136",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 136
+      },
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "Protein disorder content",
+        "propertyID": {
+          "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499"
+        },
+        "value": 1
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01789r001",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01789#sequence-location.1_136",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 136
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00076",
+            "name": "disorder"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:29138428"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01789r002",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01789#sequence-location.1_136",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 136
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00076",
+            "name": "disorder"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:29138428"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01789r003",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01789#sequence-location.1_136",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 136
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00076",
+            "name": "disorder"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:29138428"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01789r004",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01789#sequence-location.1_136",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 136
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00076",
+            "name": "disorder"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:29138428"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01789r005",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01789#sequence-location.1_136",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 136
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00076",
+            "name": "disorder"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:29138428"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01789r006",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01789#sequence-location.1_136",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 136
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0043167",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "GO:0043167",
+            "name": "ion binding"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:29138428"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01789r007",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01789#sequence-location.1_136",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 136
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00076",
+            "name": "disorder"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:29138428"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01789r008",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01789#sequence-location.1_136",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 136
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00050",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00050",
+            "name": "disorder to order"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:29138428"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01789r009",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01789#sequence-location.1_136",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 136
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0043167",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "GO:0043167",
+            "name": "ion binding"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:29138428"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01789r010",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01789#sequence-location.1_136",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 136
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0051238",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "GO:0051238",
+            "name": "sequestering of metal ion"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:29138428"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01789r011",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01789#sequence-location.1_136",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 136
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0051238",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "GO:0051238",
+            "name": "sequestering of metal ion"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:29138428"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01789r012",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01789#sequence-location.1_136",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 136
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00050",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00050",
+            "name": "disorder to order"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:29138428"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01789r013",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01789#sequence-location.1_136",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 136
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0043167",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "GO:0043167",
+            "name": "ion binding"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:29138428"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01789r014",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01789#sequence-location.1_136",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 136
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0051238",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "GO:0051238",
+            "name": "sequestering of metal ion"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:29138428"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01789r015",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01789#sequence-location.1_136",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 136
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00076",
+            "name": "disorder"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:29138428"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01789r016",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01789#sequence-location.1_136",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 136
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0051238",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "GO:0051238",
+            "name": "sequestering of metal ion"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:29138428"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01789r017",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01789#sequence-location.1_136",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 136
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00050",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00050",
+            "name": "disorder to order"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:29138428"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP01789r018",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP01789#sequence-location.1_136",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 136
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#GO:0043167",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "GO:0043167",
+            "name": "ion binding"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:29138428"
+      }
+    }
+  ]
+}

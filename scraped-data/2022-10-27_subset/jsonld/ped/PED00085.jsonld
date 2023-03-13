@@ -1,0 +1,475 @@
+{
+  "@context": "https://schema.org",
+  "includedInDataset": "https://proteinensemble.org/#2022-02",
+  "@type": "CollectionPage",
+  "@id": "https://proteinensemble.org/PED00085",
+  "identifier": "https://identifiers.org/ped:PED00085",
+  "name": "Structural ensemble of the complex between Tfb1 (2-115) and Rad2 (642-690)",
+  "citation": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://identifiers.org/pubmed:22373916"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": 2,
+    "itemListElement": [
+      {
+        "@type": "Protein",
+        "@id": "https://proteinensemble.org/PED00085#P32776-A-0",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/Protein/0.11-RELEASE",
+          "@type": "CreativeWork"
+        },
+        "identifier": "https://identifiers.org/uniprot:P32776",
+        "sameAs": "http://purl.uniprot.org/uniprot/P32776",
+        "name": "General transcription and DNA repair factor IIH subunit TFB1",
+        "hasBioPolymerSequence": "SHSGAAIFEKVSGIIAINEDVSPAELTWRSTDGDKVHTVVLSTIDKLQATPASSEKMMLRLIGKVDESKKRKDNEGNEVVPKPQRHMFSFNNRTVMDNIKMTLQQIISRYKDAD",
+        "hasSequenceAnnotation": [
+          {
+            "@type": "SequenceAnnotation",
+            "@id": "https://proteinensemble.org/PED00085#P32776-A-0_sequence-annotation",
+            "http://purl.org/dc/terms/conformsTo": {
+              "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+              "@type": "CreativeWork"
+            },
+            "sequenceLocation": {
+              "@type": "SequenceRange",
+              "@id": "https://proteinensemble.org/PED00085#P32776-A-0_sequence-location.2_115",
+              "http://purl.org/dc/terms/conformsTo": {
+                "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+                "@type": "CreativeWork"
+              },
+              "rangeStart": 2,
+              "rangeEnd": 115
+            },
+            "additionalProperty": [
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00120",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00120",
+                  "name": "NMR"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00143",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00143",
+                  "name": "NOESY"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00147",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00147",
+                  "name": "HSQC"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00150",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00150",
+                  "name": "HMQC"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00154",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00154",
+                  "name": "HNCO"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00158",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00158",
+                  "name": "HNCACB"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00160",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00160",
+                  "name": "CBCACONH"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00162",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00162",
+                  "name": "HCCONH"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00164",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00164",
+                  "name": "CBCANH"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00167",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00167",
+                  "name": "chemical shift"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00175",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00175",
+                  "name": "NOE"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl:00192",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00192",
+                  "name": "CNS"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl:00198",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00198",
+                  "name": "PROCHECK"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "Protein",
+        "@id": "https://proteinensemble.org/PED00085#P07276-B-0",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/Protein/0.11-RELEASE",
+          "@type": "CreativeWork"
+        },
+        "identifier": "https://identifiers.org/uniprot:P07276",
+        "sameAs": "http://purl.uniprot.org/uniprot/P07276",
+        "hasBioPolymerSequence": "EILERESEKESSNDENKDDDLEVLSEELFEDVPTKSQISKEAEDNDSRK",
+        "hasSequenceAnnotation": [
+          {
+            "@type": "SequenceAnnotation",
+            "@id": "https://proteinensemble.org/PED00085#P07276-B-0_sequence-annotation",
+            "http://purl.org/dc/terms/conformsTo": {
+              "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+              "@type": "CreativeWork"
+            },
+            "sequenceLocation": {
+              "@type": "SequenceRange",
+              "@id": "https://proteinensemble.org/PED00085#P07276-B-0_sequence-location.642_690",
+              "http://purl.org/dc/terms/conformsTo": {
+                "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+                "@type": "CreativeWork"
+              },
+              "rangeStart": 642,
+              "rangeEnd": 690
+            },
+            "additionalProperty": [
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00120",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00120",
+                  "name": "NMR"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00143",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00143",
+                  "name": "NOESY"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00147",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00147",
+                  "name": "HSQC"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00150",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00150",
+                  "name": "HMQC"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00154",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00154",
+                  "name": "HNCO"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00158",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00158",
+                  "name": "HNCACB"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00160",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00160",
+                  "name": "CBCACONH"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00162",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00162",
+                  "name": "HCCONH"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00164",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00164",
+                  "name": "CBCANH"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00167",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00167",
+                  "name": "chemical shift"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00175",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00175",
+                  "name": "NOE"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl:00192",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00192",
+                  "name": "CNS"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl:00198",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00198",
+                  "name": "PROCHECK"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

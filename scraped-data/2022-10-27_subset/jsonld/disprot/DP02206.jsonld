@@ -1,0 +1,213 @@
+{
+  "@context": "https://schema.org",
+  "includedInDataset": "https://disprot.org/#2022-03",
+  "@type": "Protein",
+  "@id": "https://disprot.org/DP02206",
+  "http://purl.org/dc/terms/conformsTo": {
+    "@id": "https://bioschemas.org/profiles/Protein/0.11-RELEASE",
+    "@type": "CreativeWork"
+  },
+  "identifier": "https://identifiers.org/disprot:DP02206",
+  "sameAs": "http://purl.uniprot.org/uniprot/P15516",
+  "name": "Histatin-3",
+  "taxonomicRange": {
+    "@type": "DefinedTerm",
+    "termCode": "9606",
+    "url": "http://purl.bioontology.org/ontology/NCBITAXON/9606",
+    "sameAs": [
+      "http://purl.uniprot.org/taxonomy/9606",
+      "https://identifiers.org/taxonomy:9606",
+      "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    ],
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "NCBI taxon",
+      "url": "https://bioportal.bioontology.org/ontologies/NCBITAXON"
+    }
+  },
+  "hasBioPolymerSequence": "MKFFVFALILALMLSMTGADSHAKRHHGYKRKFHEKHHSHRGYRSNYLYDN",
+  "hasSequenceAnnotation": [
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP02206#disorder-content",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP02206#sequence-location.1_51",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 51
+      },
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "Protein disorder content",
+        "propertyID": {
+          "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499"
+        },
+        "value": 0.6274509803921569
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP02206r001",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP02206#sequence-location.20_51",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 20,
+        "rangeEnd": 51
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00076",
+            "name": "disorder"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:9923693"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP02206r002",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP02206#sequence-location.20_43",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 20,
+        "rangeEnd": 43
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00076",
+            "name": "disorder"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:9433185"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP02206r003",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP02206#sequence-location.20_43",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 20,
+        "rangeEnd": 43
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00076",
+            "name": "disorder"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:26914439"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP02206r004",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP02206#sequence-location.20_51",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 20,
+        "rangeEnd": 51
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00076",
+            "name": "disorder"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:9923693"
+      }
+    }
+  ]
+}

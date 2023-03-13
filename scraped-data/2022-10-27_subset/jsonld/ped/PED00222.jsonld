@@ -1,0 +1,416 @@
+{
+  "@context": "https://schema.org",
+  "includedInDataset": "https://proteinensemble.org/#2022-02",
+  "@type": "CollectionPage",
+  "@id": "https://proteinensemble.org/PED00222",
+  "identifier": "https://identifiers.org/ped:PED00222",
+  "name": "Solution structure of calmodulin in complex with the lipidated C-terminal tail of RalA",
+  "citation": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://identifiers.org/pubmed:34480001"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": 2,
+    "itemListElement": [
+      {
+        "@type": "Protein",
+        "@id": "https://proteinensemble.org/PED00222#P0DP29-A-0",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/Protein/0.11-RELEASE",
+          "@type": "CreativeWork"
+        },
+        "identifier": "https://identifiers.org/uniprot:P0DP29",
+        "sameAs": "http://purl.uniprot.org/uniprot/P0DP29",
+        "name": "Calmodulin-1",
+        "hasBioPolymerSequence": "MADQLTEEQIAEFKEAFSLFDKDGDGTITTKELGTVMRSLGQNPTEAELQDMINEVDADGNGTIDFPEFLTMMARKMKDTDSEEEIREAFRVFDKDGNGYISAAELRHVMTNLGEKLTDEEVDEMIREADIDGDGQVNYEEFVQMMTAK",
+        "hasSequenceAnnotation": [
+          {
+            "@type": "SequenceAnnotation",
+            "@id": "https://proteinensemble.org/PED00222#P0DP29-A-0_sequence-annotation",
+            "http://purl.org/dc/terms/conformsTo": {
+              "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+              "@type": "CreativeWork"
+            },
+            "sequenceLocation": {
+              "@type": "SequenceRange",
+              "@id": "https://proteinensemble.org/PED00222#P0DP29-A-0_sequence-location.1_149",
+              "http://purl.org/dc/terms/conformsTo": {
+                "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+                "@type": "CreativeWork"
+              },
+              "rangeStart": 1,
+              "rangeEnd": 149
+            },
+            "additionalProperty": [
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00120",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00120",
+                  "name": "NMR"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00140",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00140",
+                  "name": "COSY"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00141",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00141",
+                  "name": "TOCSY"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00143",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00143",
+                  "name": "NOESY"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00145",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00145",
+                  "name": "TROSY"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00167",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00167",
+                  "name": "chemical shift"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl:00188",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00188",
+                  "name": "Structure calculation"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl:00192",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00192",
+                  "name": "CNS"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl:00201",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00201",
+                  "name": "TALOS"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl:00205",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00205",
+                  "name": "ARIA"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl:00239",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00239",
+                  "name": "SHIFTS"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "Protein",
+        "@id": "https://proteinensemble.org/PED00222#P11233-B-0",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/Protein/0.11-RELEASE",
+          "@type": "CreativeWork"
+        },
+        "identifier": "https://identifiers.org/uniprot:P11233",
+        "sameAs": "http://purl.uniprot.org/uniprot/P11233",
+        "name": "Ras-related protein Ral-A",
+        "hasBioPolymerSequence": "NGKKKRKSLAKRIRERC",
+        "hasSequenceAnnotation": [
+          {
+            "@type": "SequenceAnnotation",
+            "@id": "https://proteinensemble.org/PED00222#P11233-B-0_sequence-annotation",
+            "http://purl.org/dc/terms/conformsTo": {
+              "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+              "@type": "CreativeWork"
+            },
+            "sequenceLocation": {
+              "@type": "SequenceRange",
+              "@id": "https://proteinensemble.org/PED00222#P11233-B-0_sequence-location.187_203",
+              "http://purl.org/dc/terms/conformsTo": {
+                "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+                "@type": "CreativeWork"
+              },
+              "rangeStart": 187,
+              "rangeEnd": 203
+            },
+            "additionalProperty": [
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00120",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00120",
+                  "name": "NMR"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00140",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00140",
+                  "name": "COSY"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00141",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00141",
+                  "name": "TOCSY"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00143",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00143",
+                  "name": "NOESY"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00145",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00145",
+                  "name": "TROSY"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00167",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00167",
+                  "name": "chemical shift"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl:00188",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00188",
+                  "name": "Structure calculation"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl:00192",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00192",
+                  "name": "CNS"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl:00201",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00201",
+                  "name": "TALOS"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl:00205",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00205",
+                  "name": "ARIA"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl:00239",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00239",
+                  "name": "SHIFTS"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

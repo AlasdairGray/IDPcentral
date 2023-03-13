@@ -1,0 +1,141 @@
+{
+  "@context": "https://schema.org",
+  "includedInDataset": "https://proteinensemble.org/#2022-02",
+  "@type": "CollectionPage",
+  "@id": "https://proteinensemble.org/PED00147",
+  "identifier": "https://identifiers.org/ped:PED00147",
+  "name": "Structural ensemble of IBB (3-97), in denatured conditions",
+  "citation": {
+    "@type": "ScholarlyArticle",
+    "@id": "https://identifiers.org/pubmed:28716919"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": 1,
+    "itemListElement": [
+      {
+        "@type": "Protein",
+        "@id": "https://proteinensemble.org/PED00147#P52292-A-0",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/Protein/0.11-RELEASE",
+          "@type": "CreativeWork"
+        },
+        "identifier": "https://identifiers.org/uniprot:P52292",
+        "sameAs": "http://purl.uniprot.org/uniprot/P52292",
+        "name": "Importin subunit alpha-1",
+        "hasSequenceAnnotation": [
+          {
+            "@type": "SequenceAnnotation",
+            "@id": "https://proteinensemble.org/PED00147#P52292-A-0_sequence-annotation",
+            "http://purl.org/dc/terms/conformsTo": {
+              "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+              "@type": "CreativeWork"
+            },
+            "sequenceLocation": {
+              "@type": "SequenceRange",
+              "@id": "https://proteinensemble.org/PED00147#P52292-A-0_sequence-location.3_97",
+              "http://purl.org/dc/terms/conformsTo": {
+                "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+                "@type": "CreativeWork"
+              },
+              "rangeStart": 3,
+              "rangeEnd": 97
+            },
+            "additionalProperty": [
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00125",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00125",
+                  "name": "SAXS"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00102",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00102",
+                  "name": "FRET"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00182",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00182",
+                  "name": "smFRET"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00222",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00222",
+                  "name": "ABSINTH"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00227",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00227",
+                  "name": "CAMPARI"
+                }
+              },
+              {
+                "@type": "PropertyValue",
+                "name": "Term",
+                "value": {
+                  "@type": "DefinedTerm",
+                  "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl:00218",
+                  "inDefinedTermSet": {
+                    "@type": "DefinedTermSet",
+                    "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+                    "name": "IDP ontology"
+                  },
+                  "termCode": "IDPO:00218",
+                  "name": "COPER"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

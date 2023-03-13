@@ -1,0 +1,174 @@
+{
+  "@context": "https://schema.org",
+  "includedInDataset": "https://disprot.org/#2022-03",
+  "@type": "Protein",
+  "@id": "https://disprot.org/DP02644",
+  "http://purl.org/dc/terms/conformsTo": {
+    "@id": "https://bioschemas.org/profiles/Protein/0.11-RELEASE",
+    "@type": "CreativeWork"
+  },
+  "identifier": "https://identifiers.org/disprot:DP02644",
+  "sameAs": "http://purl.uniprot.org/uniprot/Q9SUM3",
+  "name": "NADPH--cytochrome P450 reductase 2",
+  "taxonomicRange": {
+    "@type": "DefinedTerm",
+    "termCode": "3702",
+    "url": "http://purl.bioontology.org/ontology/NCBITAXON/3702",
+    "sameAs": [
+      "http://purl.uniprot.org/taxonomy/3702",
+      "https://identifiers.org/taxonomy:3702",
+      "http://purl.obolibrary.org/obo/NCBITaxon_3702"
+    ],
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "NCBI taxon",
+      "url": "https://bioportal.bioontology.org/ontologies/NCBITAXON"
+    }
+  },
+  "hasBioPolymerSequence": "MSSSSSSSTSMIDLMAAIIKGEPVIVSDPANASAYESVAAELSSMLIENRQFAMIVTTSIAVLIGCIVMLVWRRSGSGNSKRVEPLKPLVIKPREEEIDDGRKKVTIFFGTQTGTAEGFAKALGEEAKARYEKTRFKIVDLDDYAADDDEYEEKLKKEDVAFFFLATYGDGEPTDNAARFYKWFTEGNDRGEWLKNLKYGVFGLGNRQYEHFNKVAKVVDDILVEQGAQRLVQVGLGDDDQCIEDDFTAWREALWPELDTILREEGDTAVATPYTAAVLEYRVSIHDSEDAKFNDINMANGNGYTVFDAQHPYKANVAVKRELHTPESDRSCIHLEFDIAGSGLTYETGDHVGVLCDNLSETVDEALRLLDMSPDTYFSLHAEKEDGTPISSSLPPPFPPCNLRTALTRYACLLSSPKKSALVALAAHASDPTEAERLKHLASPAGKDEYSKWVVESQRSLLEVMAEFPSAKPPLGVFFAGVAPRLQPRFYSISSSPKIAETRIHVTCALVYEKMPTGRIHKGVCSTWMKNAVPYEKSENCSSAPIFVRQSNFKLPSDSKVPIIMIGPGTGLAPFRGFLQERLALVESGVELGPSVLFFGCRNRRMDFIYEEELQRFVESGALAELSVAFSREGPTKEYVQHKMMDKASDIWNMISQGAYLYVCGDAKGMARDVHRSLHTIAQEQGSMDSTKAEGFVKNLQTSGRYLRDVW",
+  "hasSequenceAnnotation": [
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP02644#disorder-content",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP02644#sequence-location.1_711",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 1,
+        "rangeEnd": 711
+      },
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "Protein disorder content",
+        "propertyID": {
+          "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00499"
+        },
+        "value": 0.32489451476793246
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP02644r001",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP02644#sequence-location.263_303",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 263,
+        "rangeEnd": 303
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00076",
+            "name": "disorder"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:28103421"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP02644r002",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP02644#sequence-location.263_303",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 263,
+        "rangeEnd": 303
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00502",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00502",
+            "name": "flexible linker/spacer"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:28103421"
+      }
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://disprot.org/DP02644r003",
+      "http://purl.org/dc/terms/conformsTo": {
+        "@id": "https://bioschemas.org/profiles/SequenceAnnotation/0.7-DRAFT",
+        "@type": "CreativeWork"
+      },
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://disprot.org/DP02644#sequence-location.73_303",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 73,
+        "rangeEnd": 303
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Term",
+          "value": {
+            "@type": "DefinedTerm",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076",
+            "inDefinedTermSet": {
+              "@type": "DefinedTermSet",
+              "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+              "name": "IDP ontology"
+            },
+            "termCode": "IDPO:00076",
+            "name": "disorder"
+          }
+        }
+      ],
+      "subjectOf": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://identifiers.org/pubmed:28103421"
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "@context": "https://schema.org",
+  "includedInDataset": "https://mobidb.org/#2021-11",
+  "@type": "Protein",
+  "@id": "https://mobidb.org/A7VJC2",
+  "http://purl.org/dc/terms/conformsTo": {
+    "@id": "https://bioschemas.org/profiles/Protein/0.11-RELEASE",
+    "@type": "CreativeWork"
+  },
+  "identifier": "https://identifiers.org/mobidb:A7VJC2",
+  "sameAs": "http://purl.uniprot.org/uniprot/A7VJC2",
+  "name": "Heterogeneous nuclear ribonucleoproteins A2/B1",
+  "hasBioPolymerSequence": "MEKTLETVPLERKKREKEQFRKLFIGGLSFETTEESLRNYYEQWGKLTDCVVMRDPASKRSRGFGFVTFSSMAEVDAAMAARPHSIDGRVVEPKRAVAREESGKPGAHVTVKKLFVGGIKEDTEEHHLRDYFEEYGKIDTIEIITDRQSGKKRGFGFVTFDDHDPVDKIFLQKYHTINGHNAEVRKALSRQEMQEVQSSRSGRGGNFGFGDSRGGGGNFGPGPGSNFRGGSDGYGSGRGFGDGYNGYGGGPGGGNFGGSPGYGGGRGGYGGGGPGYGNQGGGYGGGYDNYGGGNYGSGNYNDFGNYNQQPSNYGPMKSGNFGGSRNMGGPYGGGNYGPGGSGGSGGYGGRSRY",
+  "hasSequenceAnnotation": [
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://mobidb.org/A7VJC2#prediction-disorder-mobidb_lite.189_234",
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://mobidb.org/A7VJC2#sequence-location.189_234",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 189,
+        "rangeEnd": 234
+      },
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "Term",
+        "value": {
+          "@type": "DefinedTerm",
+          "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+            "name": "IDP ontology"
+          },
+          "termCode": "IDPO:00076",
+          "name": "Disorder"
+        }
+      },
+      "description": "Protein disordered region predicted by MobiDB-lite"
+    },
+    {
+      "@type": "SequenceAnnotation",
+      "@id": "https://mobidb.org/A7VJC2#prediction-disorder-mobidb_lite.306_353",
+      "sequenceLocation": {
+        "@type": "SequenceRange",
+        "@id": "https://mobidb.org/A7VJC2#sequence-location.306_353",
+        "http://purl.org/dc/terms/conformsTo": {
+          "@id": "https://bioschemas.org/profiles/SequenceRange/0.1-DRAFT",
+          "@type": "CreativeWork"
+        },
+        "rangeStart": 306,
+        "rangeEnd": 353
+      },
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "Term",
+        "value": {
+          "@type": "DefinedTerm",
+          "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl#IDPO:00076",
+          "inDefinedTermSet": {
+            "@type": "DefinedTermSet",
+            "@id": "https://disprot.org/assets/data/IDPO_v0.2.owl",
+            "name": "IDP ontology"
+          },
+          "termCode": "IDPO:00076",
+          "name": "Disorder"
+        }
+      },
+      "description": "Protein disordered region predicted by MobiDB-lite"
+    }
+  ]
+}
